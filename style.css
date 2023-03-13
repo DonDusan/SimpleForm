@@ -1,0 +1,259 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+section {
+   padding: 40px 15%;
+}
+
+.contact {
+   background: #101010;
+   height: 100%;
+   width: 100%;
+   min-height: 100vh;
+   display: grid;
+   grid-template-columns: repeat(2, 2fr);
+   align-items: center;
+   grid-gap: 6rem;
+}
+
+.contact-img img {
+   max-width: 100%;
+   width: 720px;
+   height: 710px;
+   border-radius: 10px;
+}
+
+.contact-form h1 {
+   font-size: 80px;
+   color: #fff;
+   margin-bottom: 20px;
+}
+
+span {
+   color: #f9004d;
+}
+
+.contact-form p {
+   color: #c6c9d8bf;
+   letter-spacing: 1px;
+   line-height: 26px;
+   font-size: 1.1rem;
+   margin-bottom: 3.8rem;
+}
+
+.contact-form form {
+   position: relative;
+}
+
+.contact-form form input,
+form textarea {
+   width: 100%;
+   padding: 17px;
+   border: none;
+   outline: none;
+   background: #191919;
+   color: #fff;
+   font-size: 1.1rem;
+   margin-bottom: 0.7rem;
+   border-radius: 10px;
+}
+
+.contact-form textarea {
+   resize: none;
+   height: 200px;
+}
+
+label {
+   color: #fff;
+}
+
+.contact-form button {
+   background: #f9004d;
+   font-size: 1.1rem;
+   letter-spacing: 4px;
+   text-transform: uppercase;
+   font-weight: 600;
+   border: 2px solid transparent;
+   color: #fff;
+   width: 220px;
+   height: 45px;
+   border-radius: 10px;
+   transition: ease 0.2s;
+   cursor: pointer;
+}
+
+.contact-form button:hover {
+   border: 2px solid #f9004d;
+   background: transparent;
+   transform: scale(1.1);
+}
+
+/* @media:PHONE */
+@media (max-width: 350px) {
+   .contact-form h1 {
+      font-size: 40px;
+      color: #fff;
+      margin-bottom: 12px;
+   }
+
+   .contact-img img {
+      display: none;
+   }
+
+   .contact-form p {
+      color: #c6c9d8bf;
+      letter-spacing: 0.8px;
+      line-height: 22px;
+      font-size: 0.8rem;
+      margin-bottom: 3.2rem;
+   }
+
+   .contact-form form input,
+   form textarea {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      outline: none;
+      background: #191919;
+      color: #fff;
+      font-size: 0.8rem;
+      margin-bottom: 0.6rem;
+      border-radius: 10px;
+   }
+
+   .contact-form textarea {
+      resize: none;
+      height: 100px;
+   }
+
+   .contact-form button {
+      background: #f9004d;
+      font-size: 0.7rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 600;
+      border: 2px solid transparent;
+      color: #fff;
+      width: 220px;
+      height: 45px;
+      border-radius: 10px;
+      transition: ease 0.2s;
+      cursor: pointer;
+   }
+}
+
+/* END OF @media:PHONE */
+
+/* @media:TABLET */
+
+@media (max-width: 650px) {
+   .contact-form h1 {
+      font-size: 55px;
+      color: #fff;
+      margin-bottom: 16px;
+   }
+
+   .contact {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .contact-form p {
+      color: #c6c9d8bf;
+      letter-spacing: 0.8px;
+      line-height: 22px;
+      font-size: 0.8rem;
+      margin-bottom: 3.2rem;
+   }
+
+   .contact-form form input,
+   form textarea {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      outline: none;
+      background: #191919;
+      color: #fff;
+      font-size: 0.8rem;
+      margin-bottom: 0.6rem;
+      border-radius: 10px;
+   }
+
+   .contact-form textarea {
+      resize: none;
+      height: 100px;
+   }
+
+   .contact-form button {
+      background: #f9004d;
+      font-size: 0.7rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 600;
+      border: 2px solid transparent;
+      color: #fff;
+      width: 220px;
+      height: 45px;
+      border-radius: 10px;
+      transition: ease 0.2s;
+      cursor: pointer;
+   }
+}
+
+/* END OF @media:TABLET */
+
+@media (max-width: 1150px) {
+   .contact-form h1 {
+      font-size: 55px;
+      color: #fff;
+      margin-bottom: 16px;
+   }
+
+   .contact {
+      display: flex;
+      flex-direction: col;
+   }
+
+   .contact-form p {
+      color: #c6c9d8bf;
+      letter-spacing: 0.8px;
+      line-height: 22px;
+      font-size: 0.8rem;
+      margin-bottom: 3.2rem;
+   }
+
+   .contact-form form input,
+   form textarea {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      outline: none;
+      background: #191919;
+      color: #fff;
+      font-size: 0.8rem;
+      margin-bottom: 0.6rem;
+      border-radius: 10px;
+   }
+
+   .contact-form textarea {
+      resize: none;
+      height: 100px;
+   }
+
+   .contact-form button {
+      background: #f9004d;
+      font-size: 0.7rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 600;
+      border: 2px solid transparent;
+      color: #fff;
+      width: 220px;
+      height: 45px;
+      border-radius: 10px;
+      transition: ease 0.2s;
+      cursor: pointer;
+   }
+}
